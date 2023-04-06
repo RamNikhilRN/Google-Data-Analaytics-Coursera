@@ -1,10 +1,10 @@
-# Google-Data-Analaytics-Coursera
+
 
 ## [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics)
 
 &nbsp;
 
-![cert](google-data-analytics.png)
+![cert](Coursera 6A85GEB5XU56.pdf)
 
 * This repository written for reference and self-documentation purpose
 
