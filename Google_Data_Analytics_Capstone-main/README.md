@@ -1,6 +1,6 @@
 # Google-Data-Analytics-Capstone
 ## A case study on the cyclistic data set
-This repository contains an analysis done for the capstone project of the Google Data Analytics Professional Certificate course offered on Coursera. In this case study, I used data from a fictional bike rental company based in Chicago, Cyclist, to try to determine and understand the main differences between annual members and casual rider. With such insights, I was able to deliver recommendations, with which the company has developed a marketing campaign aimed at converting casual riders to annual members, and hence maximizing the growth of the company.
+An analysis completed for the final project of the Coursera course for the Google Data Analytics Professional Certificate is contained in this repository. In this case study, I attempted to identify and comprehend the key distinctions between annual members and casual riders using data from a hypothetical Chicago-based bike rental firm called Cyclist. With the help of these insights, I was able to provide recommendations that the business used to create a marketing campaign that will maximise its growth by turning casual riders into annual members.
 
 
 
