@@ -4,7 +4,7 @@
 
 &nbsp;
 
-![cert](Coursera 6A85GEB5XU56.png)
+![cert](https://github.com/RamNikhilRN/Google-Data-Analaytics-Coursera/blob/88e761ab7bc6feb49c53ba0c7cbe1a7511bdbd08/Coursera%206A85GEB5XU56.png)
 
 * This repository written for reference and self-documentation purpose
 
