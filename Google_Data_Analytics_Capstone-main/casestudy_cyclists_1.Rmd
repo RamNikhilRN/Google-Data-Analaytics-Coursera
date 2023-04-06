@@ -1,8 +1,8 @@
 ---
 title: "Google Data Analytics Capstone project"
 subtitle: "Cyclistic Case Study"
-author: "Mahmoud Elmaandi"
-date: "27/02/2022"
+author: "Ramnikhil Palasetty"
+date: "27/09/2021"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -10,76 +10,76 @@ editor_options:
 
 ### Introdution
 
-For the capstone project of the Google Data Analytics certificate, I have chosen the Cyclistic bike share data to work on. For the case study, I will perform real-world tasks of a junior data analyst for the marketing team at Cyclistic, a fictional bike-share company in Chicago.
-To answer key business questions, I will follow the six steps of the data analysis process : Ask, Prepare, Process, Analyze, Share and Act.
+I've decided to work with the Cyclistic bike share data for the Google Data Analytics certificate capstone project. I will carry out real-world duties of a junior data analyst for the marketing team at Cyclistic, a made-up bike-share business in Chicago, for the case study.
+I will use the six steps of the data analysis process—ask, prepare, process, analyse, share, and act—to provide answers to important business issues.
 
 
 ### The scenario
 
-The director of marketing of Cyclistic, Lily Moreno, believes that the company’s future growth depends on maximizing the number of annual memberships. Hence, the marketing analyst team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, the analytics team could be able to design a new marketing strategy to convert casual riders into annual members. 
+The future success of Cyclistic, according to Lily Moreno, head of marketing, hinges on increasing the number of annual subscribers. The marketing analyst team is hence interested in seeing how annual members and casual riders utilise Cyclistic bikes differently. The analytics team may be able to create a new marketing plan to turn casual riders into annual members based on these insights.
 
-Three questions will guide the future marketing campaign:
+The following three issues will direct the upcoming marketing campaign:
 
-1.How do annual members and casual riders use Cyclistic bikes differently?
+1. How do yearly members and occasional users of bicycles use them differently?
 
-2.Why would casual riders buy Cyclistic annual memberships?
+2. What motivates casual riders to purchase annual Cyclistic memberships?
 
-3.How can Cyclistic use digital media to influence casual riders to become members?
+3. How can Cyclistic utilise social media to persuade casual riders to join?
 
-I have been assigned by Moreno the first question. 
+The first query was given to me by Moreno.
 
 
 ### The Ask phase
 
-* A statement of the business task: 
+* A description of the professional task:
 
-Cyclistic has concluded that annual members are much more profitable than casual riders. So, we want to design a marketing strategies and a campaign that helps us converting casual riders into annual members. 
+Annual members are significantly more profitable than casual cyclists, according to Cyclistic. So, we aim to create marketing plans and a campaign that aid in turning occasional riders into yearly subscribers.
 
-* My key stakeholders are: 
+* My main constituencies are:
 
-1-Lily Moreno: The director of marketing and my manager. Moreno has initiated   this  strategy. The first stakeholder to deliver to. 
+Lily Moreno is my manager and the director of marketing. This plan was started by Moreno. the first recipient of the delivery.
 
-2-The executive team: For Moreno´s idea to work, the executive team must approve our recommendations, so so they must be backed up with compelling data insights and professional data visualizations.
+2-The executive team: The executive team must approve our recommendations for Moreno's concept to succeed, thus they must be supported with compelling data insights and expert data visualisations.
 
 
 ### The Prepare phase
 
-Data Source: 
-Past 12 month of original bike share data set from 01/01/2021 to 31/12/2021 was extracted as 12 zipped .csv [files](https://divvy-tripdata.s3.amazonaws.com/index.html). The data is made available and licensed by Motivate International Inc under this [license](https://ride.divvybikes.com/data-license-agreement).
+a Data source
+The original bike sharing data set's last 12 months, from January 1, 2021, to December 31, 2021, were extracted and stored as 12 zipped.csv [files] (https://divvy-tripdata.s3.amazonaws.com/index.html). Motivate International Inc. provides the data and grants the licence described in this [license](https://ride.divvybikes.com/data-license-agreement).
 
-Data Organization & Description:
+Organization & description of the data:
 
-File naming convention: YYYY_MM
+The file naming format is YYYY MM.
 
-File Type:  csv  format 
+Type of file: CSV format
 
-File Content: Each csv file consist of 13 columns which contain information related to ride id, rider type, ride start and end time, start and end location  etc. Number of rows varies between 49k to 531k from different excel files.
+File Content: Each csv file has 13 columns, each of which contains data about the rider type, ride id, start and end times, and location. Row counts in various Excel files range from 49k to 531k.
 
 
 Data credibility: 
 
-The data set is reliable, the data is complete and accurate for the chosen time window.
+The data set is accurate, full, and dependable for the selected time window.
 
-The data is original, it is a first arty information.
+The information is first-rate and original.
 
-The data is comprehensive, the data set contains all information needed to answer the question.
+The data set has all the data necessary to provide a complete response to the query.
 
-The data is current, rider data of the last 12 months was used.
+As rider data from the previous 12 months was used, the data is current.
 
-The data is cited and vetted by Chicago department of transportation.
-
-
-Data Security: Riders’ personal identifiable information is hidden through tokenization.
-
-Original files are backed up in a separate folder.
+The Chicago Department of Transportation cited and verified the information.
 
 
-Data Limitations: As riders’ personal identifiable information is hidden, thus will not be able to connect pass purchases to credit cards numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+Data security: Tokenization is used to conceal the personally identifying information of riders.
+
+Backup copies of original files are kept in a different folder.
+
+
+Data Restrictions: Because riders' personally identifying information is concealed, pass purchases cannot be linked to credit card numbers in order to identify whether frequent riders reside in the Cyclistic service region or whether they have bought many single passes.
 
 ### The Process Phase
 
-I used R for data verification and cleaning: Reasons:
-The 12 data sets combined will contain more than 5 million rows of data. Excel worksheet limitation is 1,048,576 rows. Moreover, some csv files could not uploaded to BigQuery for file size problems. Thus, R is used to perform all tasks from organizing, cleaning analyzing and visualizing data.
+I cleaned and verified my data using R. Reasons:
+More than 5 million rows of data will be included across the 12 data sets combined. There are a maximum of 1,048,576 rows in an Excel worksheet. Moreover, due to issues with file size, some csv files could not be uploaded to BigQuery. R is thus utilised for all activities, including data organisation, cleaning, analysis, and visualisation.
 
 
 ### The Analyze Phase
@@ -342,30 +342,30 @@ The plot indicates, for casual riders/members, ridership peaked around July/Augu
 
 #### Conclusions/Summary of insights 
 
-Members and casual riders differ in how long they use the bikes, how often they use the bikes, and on which days of the week does every group peak:
+The amount of time, frequency, and days of the week on which each group peaks varies between members and casual riders:
 
-* Casual rides peak during weekends (plot3). There is a high probability they are tourists visiting and sightseeing the city, or that they are ordinary Chicago residents who are riding bike in their leisure time during the weekend. The longer average ride time for casual rider (plot2), also peaking at the weekend,  provides evidence for this point.
+* Weekends are busiest for casual riding (plot3). It's very likely that they are city visitors who are taking in the sights, or that they are regular Chicago residents who are enjoying a weekend bike ride. This is supported by the fact that the average ride time for casual riders (plot2) is longer and increases on weekends.
 
-* Ride length for members are relatively shorter compared to casual riders. This could clarified as such, that most members use the bikes to commute on workdays. This clarification would also explain the short riding durations of members. They ride from point A to B, namely roughly always the same ride lengths and the same distance
+* Members tend to ride for shorter periods of time than casual riders. This may be explained by saying that the majority of the members commute to work on bicycles. This clarification would also shed light on why members only ride for little periods of time. They travel from point A to point B, which is essentially the same distance and ride length every time.
 
-* Ridership start to pick up (plot8) from February (from Spring through Summer)and start to decrease in August (from Fall through winter). This correlation is due to the seasonal changes. As the weather start to get warmer and more pleasant in February (start of Spring), more people starts to cycle, and inversely when the weather  becomes less warm cold around September (start of Fall).
+* Beginning in February (from Spring through Summer), ridership begins to increase. It then begins to decline in August (plot 8). (from Fall through winter). The seasonal fluctuations are what cause this association. More individuals begin to cycle when the weather begins to warm up and become more pleasant in February (the beginning of Spring), and the opposite is true as the weather turns cooler and less pleasant around September (start of Fall).
 
-* More than 50% of the riders are annual members (plot5), suggesting that the company have already achieved a certain level of loyalty among its bike users. This indicates a positive message, namely that the company is going to be able to convince many casual riders to convert to members, and to keep the new members satisfied. 
+* More than 50% of the riders (plot 5) are annual members, indicating that the business has already attained a certain level of customer loyalty. This suggests a good message, namely that the company will be able to persuade many casual riders to become members and to maintain the satisfaction of the new members.
 
 
 #### Recommendations
 
-Give discounts for longer rides when you have a membership
-Longer rides can get some type of rewards program when they become members
+When you sign up for a membership, you get discounts for longer rides.
+Longer rides may be eligible for a rewards programme once they join.
 
-* The marketing campaign should be launched between February to August, as the number of trips made by casual riders peaks at this time of the year.
+* The marketing initiative should be started between February and August, when the volume of journeys taken by casual riders peaks.
 
-* As casual rider usage reach its highest point on the weekend, the marketing campaign can include weekend-only membership at a sensible price. This could attract casual riders to convert to members.
+* The marketing effort can feature weekend-only membership at a fair price since casual rider usage peaks on the weekends. This might entice infrequent riders to become subscribers.
 
-* The campaign could include ride-length-based tariff plan (maybe only on weekends): Bike more, pay less ! 
-This provides more incentive for the member rides to cycle longer distances. 
+* A ride-length-based tariff plan might be included in the campaign (perhaps only on weekends): More bicycles, less money!
+This gives the member rides more motivation to cycle farther.
 
-* Alternatively, longer rides can be rewarded with benefits such as discount vouchers. 
+* As an alternative, lengthier rides may be rewarded with advantages like gift cards for discounts.
 
 
 
