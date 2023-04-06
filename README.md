@@ -4,7 +4,7 @@
 
 &nbsp;
 
-![cert](Coursera 6A85GEB5XU56.pdf)
+![cert](Coursera 6A85GEB5XU56.png)
 
 * This repository written for reference and self-documentation purpose
 
